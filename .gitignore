@@ -1,0 +1,71 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environnements virtuels
+venv/
+ENV/
+.env
+.venv
+env/
+env.bak/
+venv.bak/
+
+# Fichiers Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Fichiers d'authentification
+config.yaml
+
+# Fichiers de données temporaires
+uploaded_pdfs/
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.csv
+*.json
+!requirements.txt
+
+# Fichiers spécifiques au projet
+session_*/
+
+# Base de données et caches
+*.db
+*.sqlite
+.cache/
+
+# Logs
+logs/
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers d'éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
